@@ -9,14 +9,15 @@ export function Footer() {
         <div>
           <Link
             href="/"
-            className="inline-grid h-24 w-48 place-items-center rounded-lg border border-white/12 bg-white p-4 shadow-sm"
+            className="flex h-[108px] w-[180px] items-center justify-center rounded-2xl border border-white/14 bg-white p-4 shadow-[0_18px_45px_rgba(0,0,0,0.2)] transition hover:border-mint/50 sm:h-[120px] sm:w-[220px] sm:p-5"
+            aria-label="ORCA KOREA home"
           >
             <Image
               src="/orca-logo.png"
               alt="ORCA KOREA"
               width={548}
               height={326}
-              className="h-full w-full object-contain"
+              className="max-h-full max-w-full object-contain"
             />
           </Link>
           <p className="mt-5 max-w-md text-sm leading-7 text-white/64">
