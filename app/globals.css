@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  background: #f7faf8;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: #102031;
+  background: #f7faf8;
+}
+
+::selection {
+  background: rgba(40, 182, 154, 0.26);
+}
+
+.hero-grid {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.055) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.055) 1px, transparent 1px);
+  background-size: 52px 52px;
+}
+
+.energy-orbit {
+  background:
+    radial-gradient(circle at 72% 28%, rgba(40, 182, 154, 0.36), transparent 26%),
+    radial-gradient(circle at 25% 68%, rgba(201, 164, 91, 0.24), transparent 29%),
+    linear-gradient(135deg, rgba(15, 58, 50, 0.95), rgba(7, 19, 31, 0.92));
+}
+
+.text-balance {
+  text-wrap: balance;
+}
